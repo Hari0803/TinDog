@@ -1,0 +1,199 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+/*section 1*/
+.container-fluid{
+  padding: 3% 15% 8%;
+}
+
+/*brand text*/
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+}
+
+h2{
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+
+h3{
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+
+ /*navigation bar*/
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+/*contact pricing download*/
+.nav-link{
+  font-size: 18px;
+  margin: 1rem;
+}
+
+
+/* Download button*/
+/* class la oru word uduthalum eduthukum*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*phone image*/
+.phone-image{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 16%;
+  position: absolute;
+}
+
+
+/*section 2 (feature section)*/
+
+#feature {
+  text-align: center;
+  padding: 7% 14%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+
+.feature-box{
+   line-height: 2;
+  padding: 4.5%;
+}
+
+/*Represent Image*/
+.feature-icon{
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+
+/*section 3 (testimonials section)*/
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  line-height: 7;
+}
+
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+/*section 4 (press section)*/
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-section-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/*section 5 (pricing section)*/
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/*section 6 (call to action section)*/
+#cta{
+background-color:  #ff4c68;
+text-align: center;
+color: white;
+line-height: 2;
+padding: 6% 20%
+}
+
+.individual-h3-part{
+  font-size: 2.7rem;
+  padding-top: 2%
+}
+
+/*section 6 footer section)*/
+
+
+#footer{
+  text-align: center;
+padding: 5%;
+line-height: 2;
+}
+
+
+.footer-icon{
+  padding:  0.5%;
+}
+
+
+
+
+/*changing the view as per resolution*/
+
+@media (max-width: 900px) {
+
+  #title{
+    text-align: center;
+  }
+
+ .phone-image{
+   position: static;
+   transform: rotate(0);
+ }
+}
